@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --Green: #c5f82a;
+    --White: #ffffff;
+    --Grey-700: #333333;
+    --Grey-800: #1f1f1f;
+    --Grey-900: #141414;
+}
+
+body {
+    background-color: var(--Grey-900);
+}
+
+main#card {
+    background-color: var(--Grey-800);
+}
+
+
+
+
+
+
+footer {
+    background-color: var(--Grey-900);
+    color: var(--Grey-900);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    transition: .5s ease-in-out;
+}
+
+footer:hover {
+    background-color: var(--White);
+    color: var(--Grey-700);
+}
+
+footer a {
+    color: var(--Grey-900);
+    text-decoration: none;
+    font-weight: bold;
+}
