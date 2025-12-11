@@ -34,6 +34,7 @@ main#card {
     align-items: center;
     justify-content: space-between;
     padding: 40px 0;
+    transition: .5s ease-in-out;
 }
 
 section#info {
@@ -74,6 +75,7 @@ section#links {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    transition: .5s ease-in-out;
 }
 
 section#links > .socials {
@@ -97,9 +99,6 @@ section#links > .socials:hover {
     color: var(--Grey-700);
 }
 
-
-
-
 footer {
     background-color: var(--Grey-900);
     color: var(--Grey-900);
@@ -122,4 +121,20 @@ footer a {
     color: var(--Grey-900);
     text-decoration: none;
     font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    main#card {
+    width: 328px;
+    height: 580px;
+    padding: 25px 0;
+    }
+
+    section#links {
+    margin-top: 24px;
+    }
+
+    section#links > .socials {
+    width: 280px;
+    }
 }
