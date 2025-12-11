@@ -17,13 +17,85 @@
 
 body {
     background-color: var(--Grey-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 main#card {
     background-color: var(--Grey-800);
+    width: 385px;
+    height: 611px;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
 }
 
+section#info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
 
+section#info > img {
+    height: 87px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+section#info > h1 {
+    color: var(--White);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+p#location {
+    color: var(--Green);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+section#info > p {
+    color: var(--White);
+    font-size: 14px;
+}
+
+section#links {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+section#links > .socials {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Grey-700);
+    color: var(--White);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+}
+
+section#links > .socials:hover {
+    background-color: var(--Green);
+    color: var(--Grey-700);
+}
 
 
 
