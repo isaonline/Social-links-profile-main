@@ -64,7 +64,7 @@ p#location {
     margin-bottom: 24px;
 }
 
-section#info > p {
+section#info > p#bio {
     color: var(--White);
     font-size: 14px;
 }
